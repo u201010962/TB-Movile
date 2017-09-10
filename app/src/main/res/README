@@ -1,0 +1,13 @@
+- Cree mi modelo con los atributos (nombre, pais, latitud, longitud), con el fin de
+poder tener una mejor manipulacion de los mismos dentro de la implementación.
+
+- Implementé la clase que realiza la conexión a BD (pero ya que en clase no aún no se vio ese tema lo dejé con data en duro).
+- cree mi layout para ver los clientes, dicha pantalla cuenta con un botón para cargar datos de diferentes clientes.
+Además, cuenta con un botón "Ver mapa" el cual me permitirá ver la ubicación del cliente en el mapa
+(para este proyecto los clientes son restaurantes)
+
+-Se agregó al proyecto las dependencias "com.google.android.gms:play-services-maps" y "com.google.android.gms:play-services".
+- En el "MapsActivity" se modifica el codigo para poder hacer el recojo de las variables que se enviará al "MainActivity".
+-Luego realize la implementación del MainActibity como paso de integración con el layout. Dentro de la clase se hace la invocación
+de la clase MapsActivity al hacer clic en el botón "Ver mapa". Finalmente al hacer clic en ver mapa se muestra una nueva pantalla
+con la localizacion del lugar en el mapa.

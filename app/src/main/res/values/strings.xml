@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CollectionsSample</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_name">Lugar</string>
+    <string name="main_pais">Pais</string>
+    <string name="main_cargar">Cargar otra</string>
+    <string name="title_activity_product">About Product</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="wrong_log">Error</string>
+</resources>
